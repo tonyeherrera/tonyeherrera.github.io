@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <style>
-        body{
-            background-color: #004d4d;
-        }
-        p{
-            color: pink;
-            background-color: hsl(0,0%, 0%);
-        }
-    </style>
+<html >
+<head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Testing</title>
-    <h1>Web Testing</h1>
-</head>
+    <title>Snake v1</title>
+    <link rel="stylesheet" type="text/css" href="snake_game/snake_game.css" />
+ </head>   
 <body>
-    <p>This is gonna be fun!</p>
-    
+    <div id="gameContainer"></div>
+
+    <div id="scoreContainer">
+        <div class="scoreBoard">Food: <span id="pointsEarned">0</span></div>
+        <div id="scoreBoard">Blocks: <span id="blocksTravelled">0</span></div>
+    </div>
+
+    <div id="onScreenControllers"></div>
+        <button id="upButton">🔼</button>
+        <div>
+            <button id="leftButton">◀️</button>
+            <button id="rightButton">▶️</button>
+          </div>
+          <button id="downButton">🔽</button>
+        </div>
 </body>
+<script src="snake_game/snake_game.js"></script>
 </html>
