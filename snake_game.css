@@ -25,11 +25,12 @@ body {
 
 .snakeBodyPixel {
     background-color: #5e075e;
-    box-shadow: 0 0 0 black;
+    box-shadow: 0 0 10px black;
 }
 
 .food {
     background: rgb(96, 209, 96);
+    box-shadow: 0 0 15px rgb(1, 253, 1)
 }
 
 #scoreContainer {
